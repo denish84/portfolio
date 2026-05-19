@@ -267,7 +267,7 @@ export default function Home() {
       {/* ── FOOTER ── */}
       <footer className="border-t border-white/[0.05] px-6 py-8 text-center">
         <p className="mx-auto max-w-md font-mono text-xs leading-relaxed text-white/25">
-          &copy; 2026 Denish Shah &middot; Built with Next.js &amp; Tailwind
+          &copy; 2026 Denish Shah
         </p>
       </footer>
     </div>
