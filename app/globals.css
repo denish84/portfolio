@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #0a0a0a;
+  --color-foreground: #ffffff;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+body {
+  background: #0a0a0a;
+  color: #ffffff;
+  overflow-x: clip;
+}
+
+.hero-bg {
+  background:
+    radial-gradient(ellipse 90% 55% at 50% -10%, rgba(232, 131, 42, 0.18) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 85% 85%, rgba(232, 131, 42, 0.06) 0%, transparent 55%),
+    #0a0a0a;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+@keyframes scroll-bounce {
+  0%, 100% { transform: translateY(0); opacity: 0.35; }
+  50% { transform: translateY(5px); opacity: 0.65; }
+}
+
+.scroll-bounce-inner {
+  animation: scroll-bounce 2s ease-in-out infinite;
+}
