@@ -68,16 +68,13 @@ export default function Home() {
       >
         <div className="relative z-10 flex w-full max-w-3xl flex-col items-center -translate-y-2 sm:-translate-y-3">
           <p className="font-mono text-xs tracking-[0.3em] uppercase text-[#e8832a] mb-5">
-            Content · Strategy · Product
+            Strategist · Coordinator · Builder
           </p>
           <h1 className="text-5xl sm:text-8xl font-bold tracking-tight leading-none mb-5">
             Denish Shah
           </h1>
-          <h2 className="text-lg sm:text-2xl font-medium text-white/60 mb-6 tracking-wide text-balance max-w-xl">
-            Content Strategist &amp; IT Project Coordinator
-          </h2>
-          <p className="text-base sm:text-lg text-white/40 mb-10 max-w-lg mx-auto leading-relaxed italic text-balance">
-            &ldquo;I build real products and lead teams that ship them.&rdquo;
+          <p className="mb-10 max-w-lg text-center text-[20px] font-normal leading-relaxed text-balance text-[#9ca3af]">
+            I write for products. I coordinate teams. I ship.
           </p>
           <div className="flex w-full flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -107,35 +104,27 @@ export default function Home() {
       </section>
 
       {/* ── ABOUT ── */}
-      <section id="about" className="py-20 px-6 sm:py-28">
+      <section id="about" className="px-6 py-12 sm:py-16">
         <div className="mx-auto flex w-full max-w-4xl flex-col items-center gap-10 sm:flex-row sm:items-start">
           {/* Avatar placeholder */}
           <div className="shrink-0 w-28 h-28 rounded-full bg-[#1a1a1a] border-2 border-[#e8832a]/30 flex items-center justify-center text-2xl font-bold tracking-wider text-white/60 select-none font-mono">
             DS
           </div>
           <div className="w-full text-center sm:text-left">
-            <p className="font-mono text-xs tracking-[0.25em] uppercase text-[#e8832a] mb-3">
-              About
-            </p>
             <h2 className="text-3xl sm:text-4xl font-bold mb-5 leading-tight">
               Hi, I&apos;m Denish.
             </h2>
             <p className="mx-auto max-w-2xl text-xl leading-relaxed text-white/60 sm:mx-0">
-              Based in Surat, India. I bring 3 years of content writing and
-              growing expertise in IT project coordination — helping teams
-              communicate clearly and deliver on time. I also build real, live
-              digital products used by real communities.
+              Started with words. Moved into projects. Ended up building live
+              products.
             </p>
           </div>
         </div>
       </section>
 
       {/* ── SKILLS ── */}
-      <section id="skills" className="bg-[#0d0d0d] px-6 py-20 sm:py-28">
+      <section id="skills" className="bg-[#0d0d0d] px-6 py-12 sm:py-16">
         <div className="max-w-4xl mx-auto">
-          <p className="font-mono text-xs tracking-[0.25em] uppercase text-[#e8832a] text-center mb-3">
-            What I bring
-          </p>
           <h2 className="mb-12 text-center text-3xl font-bold sm:text-4xl">
             Skills &amp; Tools
           </h2>
@@ -180,11 +169,8 @@ export default function Home() {
       </section>
 
       {/* ── PROJECTS ── */}
-      <section id="projects" className="px-6 py-20 sm:py-28">
+      <section id="projects" className="px-6 py-12 sm:py-16">
         <div className="mx-auto max-w-5xl">
-          <p className="mb-3 text-center font-mono text-xs tracking-[0.25em] uppercase text-[#e8832a]">
-            Live &amp; shipped
-          </p>
           <h2 className="mb-12 text-center text-3xl font-bold sm:text-4xl">
             My Projects
           </h2>
@@ -230,17 +216,14 @@ export default function Home() {
       </section>
 
       {/* ── CONTACT ── */}
-      <section id="contact" className="bg-[#0d0d0d] px-6 py-20 sm:py-28">
+      <section id="contact" className="bg-[#0d0d0d] px-6 py-12 sm:py-16">
         <div className="mx-auto max-w-xl text-center">
-          <p className="font-mono text-xs tracking-[0.25em] uppercase text-[#e8832a] mb-3">
-            Say hello
-          </p>
-          <h2 className="text-3xl sm:text-4xl font-bold mb-5">
-            Let&apos;s Work Together
+          <h2 className="text-3xl sm:text-4xl font-bold mb-5 text-balance">
+            Let&apos;s make something worth making.
           </h2>
-          <p className="mb-10 leading-relaxed text-white/45 sm:mb-12">
-            Have a project in mind, want to collaborate, or just want to say
-            hi? My inbox is open.
+          <p className="mb-10 leading-relaxed text-white/45 sm:mb-12 text-balance">
+            If you have a project that needs clear thinking and someone who
+            follows through — reach out. I read every email.
           </p>
 
           <div className="flex flex-col items-center gap-5">
